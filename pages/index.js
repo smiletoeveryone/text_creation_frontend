@@ -63,8 +63,8 @@ export default function Home() {
               type="textarea"
               value={query}
               onChange={(event) => setQuery(event.target.value)}
-              placeholder="Past your article here...."
-              defaultValue={"please leave your words here for text creation."}
+              placeholder="please leave your words here for text creation....."
+              defaultValue={""}
             />
 
             {/* Button to that calls API */}

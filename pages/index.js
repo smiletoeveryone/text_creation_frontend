@@ -44,7 +44,7 @@ export default function Home() {
   return (
     <Fragment>
       <Head>
-        <title>My Awesome GPT-3 App</title>
+        <title>it is a text transformer created by Scott </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="bg-gradient-to-r from-pink-100 to-blue-300 min-h-screen px-4 py-16 sm:px-6 sm:py-24 md:grid md:place-items-center lg:px-8">

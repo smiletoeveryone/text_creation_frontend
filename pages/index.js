@@ -53,7 +53,7 @@ export default function Home() {
             it is a text transformer created by Scott...
           </h1>
           <p className="block text-sm text-center font-medium text-gray-500">
-            Here you will write your awesome description.
+            Here you can write the topics what you like .
           </p>
 
           {/* Card & Input field  */}

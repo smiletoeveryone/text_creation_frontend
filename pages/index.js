@@ -44,16 +44,16 @@ export default function Home() {
   return (
     <Fragment>
       <Head>
-        <title>it is a text transformer created by Scott </title>
+        <title> My Awesome GPT-3 App </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="bg-gradient-to-r from-pink-100 to-blue-300 min-h-screen px-4 py-16 sm:px-6 sm:py-24 md:grid md:place-items-center lg:px-8">
         <main className="flex flex-col justify-center  max-w-3xl w-full align-center">
           <h1 className="text-4xl text-center font-extrabold text-slate-800 drop-shadow sm:text-5xl mb-1">
-            My Awesome GPT-3 App...
+            it is a text transformer created by Scott...
           </h1>
           <p className="block text-sm text-center font-medium text-gray-500">
-            Here you will write your awesome description
+            Here you will write your awesome description.
           </p>
 
           {/* Card & Input field  */}
@@ -64,7 +64,7 @@ export default function Home() {
               value={query}
               onChange={(event) => setQuery(event.target.value)}
               placeholder="Past your article here...."
-              defaultValue={"djuaslkdjh"}
+              defaultValue={"please leave your words here for text creation."}
             />
 
             {/* Button to that calls API */}

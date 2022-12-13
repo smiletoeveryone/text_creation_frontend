@@ -18,7 +18,7 @@ export default async (req, res) => {
     engine: "text-davinci-003",
     prompt: `${prompt}`,
     maxTokens: 2000,
-    temperature: 0.7,
+    temperature: 0.0,
     topP: 1,
     presencePenalty: 0,
     frequencyPenalty: 0.5,

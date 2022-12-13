@@ -28,5 +28,5 @@ export default async (req, res) => {
 
   res.status(200).json({ text: `${gptResponse.data.choices[0].text}` });
 };
-// model: "text-davinci-002",
+model: "text-davinci-002",
 // prompt: "Write a long form social media post based on this Content that will engage a reader into conversation, include a summary of the Content",
